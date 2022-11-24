@@ -1,11 +1,12 @@
 import React from "react";
 import { SectionsContainer } from "react-fullpage";
 import IntroSection from "../../components/Section/Intro";
-import ProjectSelection from "../../components/Section/Project";
+import ProjectSection from "../../components/Section/Project";
 import SkillSection from "../../components/Section/Skill";
+import TimelineSection from "../../components/Section/Timeline";
 
 const options = {
-  anchors: ["intro", "skill", "project"],
+  anchors: ["intro", "skill", "project", "timeline"],
   delay: 800,
 };
 
@@ -15,7 +16,8 @@ const Main = () => {
       <SectionsContainer {...options}>
         <IntroSection />
         <SkillSection />
-        <ProjectSelection />
+        <ProjectSection />
+        <TimelineSection />
       </SectionsContainer>
     </>
   );

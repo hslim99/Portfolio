@@ -30,10 +30,7 @@ const IntroSection = () => {
           </Typography>
         </Header>
         <Box sx={{ height: "100%", display: "flex" }}>
-          <Grid
-            container
-            sx={{ margin: "auto", fontSize: "2.5rem", fontWeight: "medium" }}
-          >
+          <Grid container sx={{ margin: "auto", fontSize: "2.5rem" }}>
             <Grid
               item
               xs={6}
@@ -41,6 +38,7 @@ const IntroSection = () => {
               sx={{
                 padding: "1rem",
                 margin: "auto",
+                lineHeight: "5rem",
               }}
             >
               안녕하세요!
@@ -49,7 +47,12 @@ const IntroSection = () => {
               <br />
               프론트엔드 개발자
               <br />
-              <span style={{ fontSize: "3rem", fontWeight: "bold" }}>
+              <span
+                style={{
+                  fontSize: "3rem",
+                  fontFamily: "NEXON Lv2 Gothic Bold",
+                }}
+              >
                 임현수
               </span>
               입니다.
