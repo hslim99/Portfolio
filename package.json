@@ -22,8 +22,10 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://hslim99.github.io/Portfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "eslint": "^8.28.0",
-    "eslint-plugin-react": "^7.31.11"
+    "eslint-plugin-react": "^7.31.11",
+    "gh-pages": "^4.0.0"
   }
 }
